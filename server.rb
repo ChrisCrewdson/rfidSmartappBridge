@@ -2,8 +2,8 @@ require 'bundler/setup'
 require 'sinatra'
 require 'oauth2'
 require 'json'
-require "net/http"
-require "uri"
+require 'net/http'
+require 'uri'
 
 # Our client ID and secret, used to get the access token
 CLIENT_ID = ENV['ST_CLIENT_ID']
